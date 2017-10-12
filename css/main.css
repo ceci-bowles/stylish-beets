@@ -1,4 +1,4 @@
-body {
+html {
   background-color: #c9b5ab;
 }
 
@@ -6,20 +6,83 @@ h1 {
   color: #3f1622;
   font-family: "PT Sans", sans-serif;
   font-size: 1.5rem;
+  font-weight: bold;
 }
 
-nav ol li a {
+a {
   color: #8f2440;
   text-decoration: none;
   font-size: 1.125rem;
   font-family: "PT Sans", sans-serif;
   font-weight: bold;
+  line-height: 1.5rem;
 }
 
 nav > ol li {
   list-style-type: none;
+  line-height: 1.5rem;
+  font-weight: bold;
 }
 
 img {
-  width 100%;
+  width: 100%;
+}
+
+figure {
+  font-style: italic;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+.whatup {
+  font-weight: bold;
+  line-height: 1.5rem;
+  font-size: 1.4rem;
+}
+
+p {
+  line-height: 1.5rem;
+  font-family: "PT Serif", serif;
+}
+
+blockquote p {
+  font-style: italic;
+  font-size: 1.45rem;
+  line-height: 2.5rem;
+}
+
+.swag {
+  font-family: "PT Sans", sans-serif;
+  color: #3f1622;
+  font-weight: bold;
+}
+
+ol li {
+  list-style-type: lower-greek;
+  line-height: 1.5rem;
+}
+
+dt {
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+
+dl li:first-child {
+  font-weight: normal;
+}
+
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
+}
+
+aside ul li {
+  list-style-type: circle;
+  font-size: .8rem;
+  line-height: 1.5rem;
+}
+
+.smile {
+  font-family: "PT Serif", serif;
+  font-size: .8rem;
 }
